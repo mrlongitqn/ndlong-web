@@ -5,7 +5,7 @@ include 'configs/config.php';
 include 'libraries/common_functions.php';
 include 'libraries/connect.php';
 $db=  connect_db();
-$controller = !empty($_GET['p']) ? $_GET['p'] : 'Offer';
+$controller = !empty($_GET['p']) ? $_GET['p'] : 'homepage';
 
 $controller_path = APP_PATH . 'controllers/' . $controller . '.php';
 
