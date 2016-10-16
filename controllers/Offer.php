@@ -1,8 +1,9 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+load_model('m_offer');
+$offer = Offer(1,0, 6);
+$suvery=Offer(1,0,6);
+$video=  Offer(1,0,6);
+load_header();
+include(APP_PATH . 'views/offer/offer.php');
+load_footer();
